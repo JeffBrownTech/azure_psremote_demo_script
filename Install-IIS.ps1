@@ -1,9 +1,9 @@
 param(
-    [Parameter(Mandatory)]
+    [Parameter()]
     [string]
     $TimeZone = "Pacific Standard Time",
 
-    [Parameter(Mandatory)]
+    [Parameter()]
     [string]
     $WebsiteMessage = "Hello, World!"
 )
